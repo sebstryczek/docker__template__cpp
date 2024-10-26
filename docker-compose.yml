@@ -14,5 +14,6 @@ services:
     ports:
       - "443:443"
     volumes:
+      - ./_project.code-workspace:/workspace/_project.code-workspace
       - ./.vscode:/workspace/.vscode
       - ./app:/workspace/app
